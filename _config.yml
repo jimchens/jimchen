@@ -7,7 +7,7 @@ title: 墨客 - Jim Chen
 subtitle: 人生苦短，做自己喜欢的事，持以之恒！
 description: 做自己喜欢的事，持以之恒
 keywords:
-author: Jim Chen
+author: 陈军锋(Jim Chen)
 language: zh-CN
 timezone:
 
@@ -85,4 +85,23 @@ stylus:
 deploy:
   type:
 
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
 
