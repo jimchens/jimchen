@@ -1,5 +1,10 @@
 if site.categories.length > 0
+- var categories = site.categories.find({parent: {$exists: false}}).sort('name', 1).filter(cat => cat.length)
   .widget
     .widget-title
       i(class='fa fa-gui')= ' ' + __('categories')
-    != list_categories({show_count: theme.show_category_count})
+      //- != list_categories({show_count: theme.show_category_count})
+      - for (var i in categories.data)
+        div(style='font-size:14px; margin:2px;line-height:30px;')
+          a(href='/categories/#{categories.data[i].name}/index.html') #{categories.data[i].name}(#{categories.data[i].length})
+        

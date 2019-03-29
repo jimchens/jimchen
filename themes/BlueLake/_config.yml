@@ -28,9 +28,9 @@ widgets:
   - recent_posts
   - category
   - tag
-  - archive
+  # - archive
   #- weibo
-  - links
+  # - links
 
 # Toc
 toc:
@@ -76,8 +76,8 @@ copyright:
   describe: #copyright description
 
 # MathJax Support
-#mathjax:
- # enable: false  #true/false.
+mathjax:
+ enable: false  #true/false.
  # cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 #Cmments

@@ -2,6 +2,8 @@
 
 title: BlueLake主题搭建博客
 date: 2015-08-29 18:06:06
+categories:
+- 搭建博客
 tags: 
  - BlueLake 
  - 博客主题 

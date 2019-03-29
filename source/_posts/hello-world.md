@@ -2,7 +2,8 @@
 
 title: Hello World
 date: 2015-08-19 16:00:57
-
+categories:
+- 搭建博客
 ---
 
 <br>

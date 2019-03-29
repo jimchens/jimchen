@@ -1,10 +1,11 @@
 ---
 title: jvm优化
 date: 2017-01-03 14:19:45
+categories:
+- JVM
 tags: 
 	- Jvm优化
 	- Java优化
-	
 ---
 
 # 常见配置汇总

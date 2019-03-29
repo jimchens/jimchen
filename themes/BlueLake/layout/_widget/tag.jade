@@ -1,5 +1,7 @@
 .widget
   .widget-title
-    i(class='fa fa-biao')= ' ' + __('tags')
+    i(class='fa fa-biao')= ' ' + __('tag')
   .tagcloud
-    != tagcloud({min_font: 15, max_font: 15, amount: 100, orderby: 'count'})
+    //- != tagcloud({min_font: 15, max_font: 15, amount: 100, orderby: 'count'})
+  - for (var i in site.tags.data)
+    a(style='margin:10px;' href='/tags/#{site.tags.data[i].name}/index.html') #{site.tags.data[i].name}
